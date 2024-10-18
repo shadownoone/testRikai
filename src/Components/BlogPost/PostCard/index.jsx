@@ -11,8 +11,8 @@ function PostCard({ post, onEdit, onDelete, onClick }) {
                     <p className="text-muted">
                         <strong>Thời gian đăng:</strong> {formatDateTime(post.published_at)}
                     </p>
-                    <button className="btn btn-primary" onClick={onClick}>
-                        Xem chi tiết
+                    <button className="btn btn-primary me-2" onClick={onClick}>
+                        Xem Chi Tiết
                     </button>
                     <button className="btn btn-warning me-2" onClick={onEdit}>
                         Chỉnh Sửa
