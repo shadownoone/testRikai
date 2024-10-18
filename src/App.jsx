@@ -8,7 +8,7 @@ function App() {
         <Router>
             <Routes>
                 <Route path="/" element={<BlogPost />} />
-                <Route path="/post/:id" element={<Details />} /> {/* Detail page */}
+                <Route path="/post/:id" element={<Details />} />
             </Routes>
         </Router>
     );
