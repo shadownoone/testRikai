@@ -4,6 +4,7 @@ import { formatDateTime } from '../../../utils/formatDate';
 function Details() {
     const location = useLocation();
     const { title, content, published_at } = location.state || {};
+    // Deploy
 
     return (
         <div className="container mt-5">
